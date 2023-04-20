@@ -1,9 +1,10 @@
-firstName = 'John';
-age = 35;
-message = 'Coding';
+const firstName = 'John';
+const age = 35;
+const message = 'Coding';
 
 
 const logTwice = () => {
+    console.log(`Hello, ${firstName} ${age}. I love ${message}!`)
     console.log(`Hello, ${firstName} ${age}. I love ${message}!`)
   }
   
